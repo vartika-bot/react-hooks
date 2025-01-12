@@ -12,6 +12,11 @@ function Greeting({initialName = ''}) {
   // The callback should set the `name` in localStorage.
   // 💰 window.localStorage.setItem('name', name)
 
+
+  React.useEffect(()=>{
+    
+  })
+
   function handleChange(event) {
     setName(event.target.value)
   }
